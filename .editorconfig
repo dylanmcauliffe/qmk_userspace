@@ -3,7 +3,7 @@
 root = true
 
 [*]
-indent_style = space
+indent_style = tab
 indent_size = 4
 
 # We recommend you to keep these unchanged
@@ -30,3 +30,7 @@ indent_style = tab
 
 [*.sh]
 end_of_line = lf
+
+[*.c]
+indent_style = tab
+indent_size = 5
